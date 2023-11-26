@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+   max-width: 1194px;
+}
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+}
+
+
+.titel{
+    padding: 29px 0 0 53px;
+    position: relative;
+}
+
+
+.titel img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.titel h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #666666;
+    margin-bottom: -7px;
+}
+
+
+ .titel h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: #d50a51;
+    margin-bottom: 60px;
+    
+}
+
+
+.titel_text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    margin-bottom: 26px;
+}
+
+.btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+.may_btn{
+    padding: 16px 20px;
+    background: transparent;
+    border: 2px solid #d50a51;
+    border-radius: 50px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    transition: .4s;
+
+}
+
+
+.may_btn:hover{
+    background: #d50a51;
+    color: #ffffff;
+
+}
+
+
+
+/* ===================================================================== */
+
+.navbar{
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar .navbar-nav {
+    column-gap: 27px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #000;
+    transition: .4s;
+    position: relative;
+}
+
+
+.navbar .navbar-nav .nav-item .active {
+    color: #d50a51;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #d50a51;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link img {
+     position: absolute;
+     left: 50%;
+     top: 100%;
+     transform: translateX(-50%);
+     opacity: 0;
+     transition: .4s;
+}
+
+
+.navbar .navbar-nav .nav-item .active img {
+     position: absolute;
+     left: 50%;
+     top: 100%;
+     transform: translateX(-50%);
+     opacity: 1;
+     transition: .4s;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover img {
+     opacity: 1;
+}
+
+
+.navbar .coustom_btn {
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+     color: #ffffff;
+     background: #d50a51;
+     border: 0;
+     padding: 15px 20px;
+     border-radius: 41px;
+}
+
+
+.navbar .coustom_btn i{
+     margin-right: 11px;
+}
+
+/* =============================================================== */
+
+#banner_part {
+    background: url(../images/banner_part_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 133px;
+}
+
+
+#banner_part .banner img {
+     margin-left: -48px;
+}
+
+
+#banner_part .text {
+     text-align: center;
+}
+
+
+#banner_part .text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 61px;
+    color: #8a5e3b;
+    text-transform: uppercase;
+}
+
+
+#banner_part .text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-size: 84px;
+    color: #d50a51;
+    margin-top: -43px;
+}
+
+
+#banner_part .text p {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+}
+
+
+/* =============================================================== */
+
+
+
+/* =============================================================== */
+
+#history_part{
+    padding: 100px 0 94px;
+}
+
+
+
+#history_part .titel h2{
+    margin-bottom: 61px;
+    
+}
+
+#history_part .container .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =============================================================== */
+
+
+/* =============================================================== */
+
+#gift_part{
+    background: url(../images/gift-bg.png) no-repeat center / cover;
+    padding: 60px 0;
+}
+
+#gift_part .text{
+     padding-left: 100px;
+}
+
+
+#gift_part .image{
+    position: relative;
+    height: 100%;
+
+}
+
+#gift_part .image img{
+     position: absolute;
+     left: -155px;
+     bottom: -103px;
+
+}
+
+/* =============================================================== */
+
+
+
+/* =============================================================== */
+
+#ticket_part{
+    padding: 116px 0 100px;
+}
+
+#ticket_part .titel{
+    text-align: right;
+    padding-right: 53px !important;
+}
+
+#ticket_part .titel img{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translateX(-100%);
+}
+
+#ticket_part .titel_text{
+    text-align: right;
+}
+
+
+#ticket_part .btn{
+    justify-content: end;
+}
+
+
+#ticket_part .may_btn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ======================================================== */
+
+#offer_part{
+    background: url(../images/offer-bg.png) no-repeat center / cover ;
+    padding: 54px 0 27px;
+}
+
+#offer_part .offer_box {
+    padding: 30px 34px 30px 34px;
+    background: transparent;
+    border-right: 3px solid transparent;
+    transition: .4s;
+}
+
+#offer_part .box_bottom_gap {
+    margin-bottom: 30px;
+}
+
+#offer_part .offer_box:hover {
+    padding: 30px 34px 30px 34px;
+    background: #f1f1f1;
+    border-right: 3px solid #d50a51;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+}
+
+#offer_part .offer_box .box{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 22px;
+}
+
+#offer_part .offer_box .box h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #d50a51;
+}
+
+#offer_part .offer_box p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444444;
+    margin-top: 22px;
+}
+
+/* =============================================================== */
+
+#capture_part{
+    margin: 100px 0;
+}
+
+#capture_part .capture_image {
+    position: relative;
+}
+
+#capture_part .capture_image img{
+    width: 100%;
+}
+
+#capture_part .capture_image .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding: 19px 15px;
+    opacity: 0;
+    transition: .7s;
+}
+
+#capture_part .capture_image .overlay:hover{
+    opacity: 1;
+}
+
+#capture_part .capture_image .overlay .icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#capture_part .capture_image .overlay .icon i{
+   height: 40px;
+   width: 40px;
+   border: 1px solid #ffffff;
+   background: transparent;
+   color: #ffffff;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   transition: .4s;
+   cursor: pointer;
+}
+
+#capture_part .capture_image .overlay .icon i:hover{
+   background: #d50a51;
+   border: transparent;
+}
+
+#capture_part .capture_image .overlay h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#capture_part .capture_image .overlay p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+#capture_part .bottom_gap{
+    margin-bottom: 30px;
+}
+
+
+#capture_part .titel{
+    text-align: right;
+    padding-right: 53px !important;
+}
+
+
+#capture_part .titel h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+#capture_part .titel img{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translateX(-100%);
+}
+
+#capture_part .titel_text{
+    text-align: right;
+}
+
+
+#capture_part.btn{
+    justify-content: end;
+}
+
+
+#capture_part .may_btn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
